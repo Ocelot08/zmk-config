@@ -50,9 +50,9 @@
 // | LSHFT | BTCLR |       |       |       |       |                         |       |       |       |   {   |   }   | RSHFT |
 // | LCTRL |  LALT |  LGUI |       |       | SPACE |                         | SPACE |       |       |       |       | ENTER |
 			bindings = <
-&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2                                                                  &kp N1   &kp N1
+&bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3                                                                  &kp N1   &kp N1
 &kp GRAVE  &kp EXCL     &kp AT       &kp HASH     &kp DLLR &kp PRCNT         &kp CARET &kp AMPS &kp ASTRK &kp LPAR &kp RPAR &kp TILDE
-&trans     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 3 &none    &none             &none     &none    &kp UNDER &kp LBKT &kp RBKT &kp BSLH
+&trans     &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &none    &none             &none     &none    &kp UNDER &kp LBKT &kp RBKT &kp BSLH
 &kp LSHFT  &bt BT_CLR   &none        &none        &none    &none             &none     &none    &none     &kp LBRC &kp RBRC &kp RSHFT
 &kp LCTRL  &kp LALT     &kp LGUI     &none        &none    &kp SPACE         &kp SPACE &none    &none     &none    &none   &kp RET
 			>;
@@ -83,16 +83,16 @@
 			label = " sys";
 // -----------------------------------------------------------------------------------------------------------------------------------------
 // | BTCLR |  BT1  |  BT2  |  BT3  |                                                                                       |   2   |   2   |
-// |  ESC  |       | BTCLR |  BT1  |  BT2  |  BT3  |                                       | PSCRN |  HOME |  PGUP |       |   UP  |  DEL  |
-// |       |       |       |       | SLEEP |       |                                       |       |   END |  PGDN |  LEFT |  DOWN | RIGHT |
-// | LSHFT |       |       |       | BOOTL |       |                                       |  PREV |  NEXT |   PP  |  STOP |  MUTE |  RSFT |
+// |  ESC  |       |       |       |       |       |                                       | PSCRN |  HOME |  PGUP |       |   UP  |  DEL  |
+// |       |  BT1  |  BT2  |  BT3  | SLEEP |       |                                       |       |   END |  PGDN |  LEFT |  DOWN | RIGHT |
+// | LSHFT | BTCLR |       |       | BOOTL |       |                                       |  PREV |  NEXT |   PP  |  STOP |  MUTE |  RSFT |
 // | LCTRL |  LALT |  LGUI | TaskM |       | ZoomV |                                       | ZoomA |       | TRANS | VOLDN | VOLUP | ENTER |
 			bindings = <
-&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2                                                                                           &kp N2       &kp N2
-&kp ESC    &none     &bt BT_CLR   &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2         &kp PSCRN     &kp HOME   &kp PG_UP  &none        &kp UP       &kp DEL
-&none      &none        &none        &none           &kp C_SLEEP_MODE &bootloader          &none         &kp END    &kp PG_DN  &kp LEFT     &kp DOWN     &kp RIGHT
-&kp LSHFT  &none        &none        &none           &none            &none                &kp C_PREV    &kp C_NEXT &kp C_PP   &kp C_STOP   &kp C_MUTE   &kp RSFT
-&kp LCTRL  &kp LALT     &kp LGUI     &kp RC(RS(ESC)) &none            &kp RC(RS(RG(O)))    &kp RA(RS(RG(O))) &none  &trans     &kp C_VOL_UP &kp C_VOL_UP &kp KP_ENTER
+&bt BT_CLR &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3                                                                                           &kp N2       &kp N2
+&kp ESC    &none        &none        &none           &none     		  &none 				&kp PSCRN     &kp HOME   &kp PG_UP  &none        &kp UP       &kp DEL
+&none      &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3    &kp C_SLEEP_MODE &bootloader          	&none         &kp END    &kp PG_DN  &kp LEFT     &kp DOWN     &kp RIGHT
+&kp LSHFT  &bt BT_CLR 	&none        &none           &none            &none                	&kp C_PREV    &kp C_NEXT &kp C_PP   &kp C_STOP   &kp C_MUTE   &kp RSFT
+&kp LCTRL  &kp LALT     &kp LGUI     &kp RC(RS(ESC)) &none            &kp RC(RS(RG(O)))    	&kp RA(RS(RG(O))) &none  &trans     &kp C_VOL_UP &kp C_VOL_UP &kp KP_ENTER
 			>;
 
 //			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
