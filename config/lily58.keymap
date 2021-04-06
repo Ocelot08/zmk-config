@@ -69,8 +69,8 @@
 &none     &kp N1   &kp N2   &kp N3                                                                         &kp N2          &kp N2
 &kp ESC   &kp F1   &kp F2   &kp F3  &kp F4  &kp F5            &kp KP_N7 &kp KP_N8 &kp KP_N9  &kp BSPC      &kp UP          &kp DEL
 &none     &kp F6   &kp F7   &kp F8  &kp F9  &kp F10           &kp KP_N4 &kp KP_N5 &kp KP_N6  &kp LEFT      &kp DOWN        &kp RIGHT
-&kp LSHFT &kp F11  &kp F12  &kp F13 &kp F14 &kp F15           &kp KP_N1 &kp KP_N2 &kp KP_N3  &kp KP_DIVIDE &kp KP_MULTIPLY &kp KP_EQUAL
-&kp LCTRL &kp LALT &kp LGUI &trans  &none   &kp SPACE         &kp KP_N0 &none     &kp KP_DOT &kp KP_MINUS  &kp KP_PLUS     &kp KP_ENTER
+&kp LSHFT &kp F11  &kp F12  &kp F13 &kp F14 &kp F15           &kp KP_N1 &kp KP_N2 &kp KP_N3  &kp KP_DIVIDE &kp KP_MULTIPLY &kp EQUAL
+&kp LCTRL &kp LALT &kp LGUI &trans  &none   &kp SPACE         &kp KP_N0 &none     &kp KP_DOT &kp MINUS  &kp PLUS     &kp KP_ENTER
 			>;
 
 //			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
