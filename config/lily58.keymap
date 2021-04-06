@@ -29,6 +29,7 @@
 // |  MOD1 |   A   |   S   |   D   |   F   |   G   |            |   H   |   J   |   K   |   L   |   ;   |   '   |
 // | LSHFT |   Z   |   X   |   C   |   V   |   B   |            |   N   |   M   |   ,   |   .   |   /   | RSHFT |
 // | LCTRL |  LALT |  LGUI |  MOD2 |       | SPACE |            | SPACE |       |  MOD3 |  DOWN |   UP  | ENTER |
+			label = "test";
 			bindings = <
 &kp ESC    &kp N1   &kp N2   &kp N3                                                                  &kp N0   &kp N0
 &kp TAB    &kp Q    &kp W    &kp E     &kp R   &kp T            &kp Y     &kp U  &kp I      &kp O    &kp P    &kp BSPC
