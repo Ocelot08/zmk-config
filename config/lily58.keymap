@@ -23,13 +23,13 @@
 		compatible = "zmk,keymap";
 
 		default_layer {
+			label = "HOME";
 // --------------------------------------------------------------------------------------------------------------
 // |  ESC  |   1   |   2   |   3   |                                                            |   0   |   0   |
 // |  TAB  |   Q   |   W   |   E   |   R   |   T   |            |   Y   |   U   |   I   |   O   |   P   |  BSPC |
 // |  MOD1 |   A   |   S   |   D   |   F   |   G   |            |   H   |   J   |   K   |   L   |   ;   |   '   |
 // | LSHFT |   Z   |   X   |   C   |   V   |   B   |            |   N   |   M   |   ,   |   .   |   /   | RSHFT |
 // | LCTRL |  LALT |  LGUI |  MOD2 |       | SPACE |            | SPACE |       |  MOD3 |  DOWN |   UP  | ENTER |
-			label = "test";
 			bindings = <
 &kp ESC    &kp N1   &kp N2   &kp N3                                                                  &kp N0   &kp N0
 &kp TAB    &kp Q    &kp W    &kp E     &kp R   &kp T            &kp Y     &kp U  &kp I      &kp O    &kp P    &kp BSPC
@@ -42,6 +42,7 @@
 		};
 
 		symbol_layer {
+			label = "SYMBOLS";
 // ---------------------------------------------------------------------------------------------------------------------------
 // | BTCLR |  BT1  |  BT2  |  BT3  |                                                                         |   1   |   1   |
 // |   `   |   !   |   @   |   #   |   $   |   %   |                         |   ^   |   &   |   *   |   (   |   )   |   ~   |
@@ -60,6 +61,7 @@
 		};
 
 		fnnum_layer {
+			label = "FN NUM";
 // ------------------------------------------------------------------------------------------------------------
 // |       |   1   |   2   |   3   |                                                          |   2   |   2   |
 // |  ESC  |  F1   |  F2   |  F3   |  F4   |  F5   |          |  KPN7 |  KPN8 |  KPN9 |  BSPC |   UP  |  DEL  |
@@ -78,6 +80,7 @@
 		};
 		
 		system_layer {
+			label = "SYSTEM";
 // -----------------------------------------------------------------------------------------------------------------------------------------
 // | BTCLR |  BT1  |  BT2  |  BT3  |                                                                                       |   2   |   2   |
 // |  ESC  |       | BTCLR |  BT1  |  BT2  |  BT3  |                                       | PSCRN |  HOME |  PGUP |       |   UP  |  DEL  |
