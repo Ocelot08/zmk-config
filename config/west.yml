@@ -2,10 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: Ocelot08
+      url-base: https://github.com/Ocelot08
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: Ocelot08
+      revision: Ocelot08-test
       import: app/west.yml
   self:
     path: config
