@@ -51,7 +51,7 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)                 RC(4,6) RC(4,7) 
 		a-gpios = <&pro_micro_d 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		b-gpios = <&pro_micro_d 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		resolution = <4>;
-	//	status = "disabled";
+		status = "disabled";
 	};
 
 	sensors {
@@ -61,7 +61,7 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)                 RC(4,6) RC(4,7) 
 };
 
 &pro_micro_i2c {
-	status = "okay";
+	status = "disabled";
 
 	oled: ssd1306@3c {
 		compatible = "solomon,ssd1306fb";
