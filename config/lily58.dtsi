@@ -69,6 +69,7 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)                 RC(4,6) RC(4,7) 
 	};
 };
 
+/*
 &pro_micro_i2c {
 	status = "disabled";
 
@@ -88,3 +89,4 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)                 RC(4,6) RC(4,7) 
 		prechargep = <0x22>;
 	};
 };
+*/
