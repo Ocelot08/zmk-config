@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk
       remote: Ocelot08
-      revision: Ocelot08-test
+      revision: base
       import: app/west.yml
   self:
     path: config
