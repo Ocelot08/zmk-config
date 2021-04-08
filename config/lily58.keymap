@@ -38,7 +38,7 @@
 &kp LCTRL  &kp LALT &kp LGUI &mo FNNUM &none   &kp SPACE        &kp SPACE &none  &mo SYSTEM &kp DOWN &kp UP   &kp RET
 			>;
 
-//			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+//			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 
 		symbol_layer {
