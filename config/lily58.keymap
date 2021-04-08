@@ -35,7 +35,7 @@
 &kp LCTRL  &kp LALT &kp LGUI &mo FNNUM &none   &kp SPACE        &kp SPACE &none  &mo SYSTEM &kp DOWN &kp UP   &kp RET
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
 		};
 
 		symbol_layer {
@@ -89,7 +89,7 @@
 &kp ESC    &none        &none        &none           &none     		  &none 				&kp PSCRN     &kp HOME   &kp PG_UP  &none        &kp UP       &kp DEL
 &none      &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3    &kp C_SLEEP_MODE &bootloader          	&none         &kp END    &kp PG_DN  &kp LEFT     &kp DOWN     &kp RIGHT
 &kp LSHFT  &bt BT_CLR 	&none        &none           &none            &none                	&kp C_PREV    &kp C_NEXT &kp C_PP   &kp C_STOP   &kp C_MUTE   &kp RSFT
-&kp LCTRL  &kp LALT     &kp LGUI     &kp RC(RS(ESC)) &none            &kp RC(RS(RG(O)))    	&kp RA(RS(RG(O))) &none  &trans     &kp C_VOL_UP &kp C_VOL_UP &kp KP_ENTER
+&kp LCTRL  &kp LALT     &kp LGUI     &kp RC(RS(ESC)) &none            &kp RC(RS(RG(O)))    	&kp RA(RS(RG(O))) &none  &trans     &kp C_VOL_DN &kp C_VOL_UP &kp KP_ENTER
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
